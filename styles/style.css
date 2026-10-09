@@ -39,7 +39,7 @@ font-weight: 400;
 font-family: "Raleway", Arial, sans-serif;
 }
 
-.cover { 
+.cover {
 background-image: url("../images/cover.jpg");
 height: 757px;
 position: relative;
@@ -65,7 +65,7 @@ background-position: center;
   font-family: "Raleway", Arial, sans-serif;
 }
 
-h1{
+h1 {
   text-transform: uppercase;
   position: relative;
 }
@@ -141,7 +141,6 @@ background-position: center;
 }
 
 .lots h2 {
- font-size: 40px;
  text-transform: uppercase;
  margin-left: 40px;
  font-size: 40px;
