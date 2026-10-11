@@ -24,8 +24,8 @@
 }
 
 .about__auction {
-padding-left: 5.5px;
-word-spacing: 1px;
+    padding-left: 5.5px;
+    word-spacing: 1px;
 }
 
 .header__menu ul {
@@ -40,10 +40,9 @@ word-spacing: 1px;
     list-style: none;
 }
 
-.link__active a{
+.link__active a {
     text-decoration: none;
 }
-
 
 .header__logo {
     display: block;
@@ -235,9 +234,9 @@ li article {
 
 .lots__card-book-boring-day {
     display: inline-block;
-  transform: translateX(7px);
-  text-decoration: underline;
-  text-underline-offset: 3px;
+    transform: translateX(7px);
+    text-decoration: underline;
+    text-underline-offset: 3px;
 }
 
 .lots__card-film {
@@ -245,7 +244,7 @@ li article {
 }
 
 .lots__card-book {
-   transform: translateY(10px); 
+    transform: translateY(10px);
 }
 
 .lots__card-picture {
@@ -253,7 +252,7 @@ li article {
 }
 
 .text__about_up {
-  padding-top: 0;
+    padding-top: 0;
 }
 
 .lots__card_left {
@@ -273,9 +272,9 @@ li article {
     min-height: 596px;
     position: relative;
     display: flex;
-     flex-direction: column;
-  background-size: cover;
-  background-position: center;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
 }
 
 .lots__more {
@@ -298,11 +297,11 @@ li article {
 }
 
 .up__text {
-padding-top: 5px;
+    padding-top: 5px;
 }
 
 .down__text {
-margin-top: -1px;
+    margin-top: -1px;
 }
 
 .about {
