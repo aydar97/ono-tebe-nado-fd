@@ -67,15 +67,19 @@
     width: 240px;
     line-height: 24.3px;
     font-style: normal;
-    padding-left: 24.5px;
+}
+
+.address__header {
+    padding-left: 0;
+    margin-left: 0;
 }
 
 .address__block a {
-    text-underline-offset: 4px;
+    text-underline-offset:4px;
 }
 
 .header__menu a {
-    text-underline-offset: 2px;
+    text-underline-offset: 3px;
 }
 
 .address__block p {
@@ -174,7 +178,7 @@ h1 span {
 }
 
 .lots {
-    padding-top: 128px;
+    padding-top: 119px;
     background-size: cover;
     background-position: center;
 }
@@ -195,7 +199,7 @@ h1 span {
     font-size: 40px;
     font-family: "Raleway", Arial, sans-serif;
     font-weight: 700;
-    margin-top: 53px;
+    margin-top: 62px;
 }
 
 li a {
@@ -228,31 +232,12 @@ li article {
     text-transform: uppercase;
     text-decoration: underline;
     position: relative;
-    padding: 40px 40px;
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 0;
     text-underline-offset: 3px;
-}
-
-.lots__card-book-boring-day {
-    display: inline-block;
-    transform: translateX(7px);
-    text-decoration: underline;
-    text-underline-offset: 3px;
-}
-
-.lots__card-film {
-    transform: translateY(10px);
-}
-
-.lots__card-book {
-    transform: translateY(10px);
-}
-
-.lots__card-picture {
-    transform: translateY(10px);
-}
-
-.text__about_up {
-    padding-top: 0;
+    margin-top: 0;
 }
 
 .lots__card_left {
@@ -287,21 +272,16 @@ li article {
     text-underline-offset: 1px;
 }
 
-.about__text {
-    font-family: "Raleway", Arial, sans-serif;
+.text {
+    display: flex;
+    flex-direction: column;
+     font-family: "Raleway", Arial, sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
-    margin: 100px 0 25px 50px;
+    margin: 103px 0 25px 50px;
     width: 688px;
-}
-
-.up__text {
-    padding-top: 5px;
-}
-
-.down__text {
-    margin-top: -1px;
+    gap: 25px;
 }
 
 .about {
@@ -350,27 +330,6 @@ li article {
     padding-bottom: 85px;
 }
 
-.address__block {
-    display: flex;
-    flex-direction: column;
-    width: 264px;
-    font-family: "Raleway", Arial, sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 24.3px;
-    font-style: normal;
-}
-
-.address__block__footer {
-    justify-self: start;
-    padding-left: 50px;
-    width: 300px;
-}
-
-.address__block__footer p {
-    width: 300px;
-}
-
 .address__a {
     text-underline-offset: 3px;
 }
@@ -384,16 +343,16 @@ li article {
     font-size: 18px;
 }
 
-.footer__menu__main {
-    text-decoration: none;
+.footer__menu__end {
+    line-height: 95%;
+    padding-top: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.footer__menu__lots {
-    text-underline-offset: 5px;
-}
-
-.footer__menu__auction {
-    text-underline-offset: 5px;
+.footer__menu__end {
+    text-underline-offset: 4px;
 }
 
 .footer__ul {
@@ -402,6 +361,16 @@ li article {
     font-weight: 400;
     font-size: 18px;
     text-align: center;
+}
+
+.address__footer {
+    margin-right: 50px;
+    width: 265px;
+    padding-top: 2px;
+}
+
+.address__footer p {
+    width: 261px;
 }
 
 .link__active__footer {
@@ -414,7 +383,6 @@ li article {
     gap: 48px;
     list-style: none;
     margin-left: 27px;
-    margin-top: 1px;
 }
 
 .socials {
@@ -425,4 +393,5 @@ li article {
     justify-content: center;
     align-items: center;
     background-color: #fff;
+    margin-top: 2px;
 }
